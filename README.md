@@ -5,7 +5,7 @@ PHP PDO Singleton instance
 Add your configurations into `conf.inc.php` file
 
 ## Usage
-```
+```PHP
 include("PDOInstance.php");
 
 $pdoInstance = PDOInstance::getInstance()->getPDO();
